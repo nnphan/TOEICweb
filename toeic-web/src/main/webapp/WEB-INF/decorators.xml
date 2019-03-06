@@ -11,10 +11,7 @@
         <pattern>/admin*</pattern>
     </decorator>
 
-    <decorator name="admin" page="admin.jsp">
-<!--
     <decorator name="web" page="web.jsp">
--->
         <pattern>/*</pattern>
     </decorator>
 
