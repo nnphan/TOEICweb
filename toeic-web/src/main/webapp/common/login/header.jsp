@@ -1,16 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: nnphan
-  Date: 3/6/2019
-  Time: 11:56 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="center">
+    <h1>
+        <i class="ace-icon fa fa-leaf green"></i>
+        <span class="red">Toeic</span>
+        <span class="white" id="id-text2">Application</span>
+    </h1>
+    <h4 class="blue" id="id-company-text">&copy; Bamboo Center</h4>
+</div>
+<div class="space-6"></div>
