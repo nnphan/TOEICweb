@@ -10,6 +10,7 @@
         <module name="toeic-core-dao" />
         <module name="toeic-core-dao-impl" />
         <module name="toeic-core-data" />
+        <module name="toeic-core-datatranfer-object" />
         <module name="toeic-core-dto" />
         <module name="toeic-core-persistence-data" />
         <module name="toeic-core-service" />
@@ -26,6 +27,7 @@
       <module name="toeic-core-dao" target="1.5" />
       <module name="toeic-core-dao-impl" target="1.5" />
       <module name="toeic-core-data" target="1.5" />
+      <module name="toeic-core-datatranfer-object" target="1.5" />
       <module name="toeic-core-dto" target="1.5" />
       <module name="toeic-core-persistence-data" target="1.5" />
       <module name="toeic-core-service" target="1.5" />
