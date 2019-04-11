@@ -25,6 +25,7 @@
         <module>toeic-core-service-impl</module>
         <module>toeic-core-web</module>
         <module>toeic-core-datatranfer-object</module>
+        <module>toeic-api-test</module>
     </modules>
 
     <properties>
@@ -89,6 +90,19 @@
             <version>${jstl.version}</version>
         </dependency>
 
+        <!--Log4j-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!--beanutils-->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${beanutils.version}</version>
+        </dependency>
 
     </dependencies>
 
