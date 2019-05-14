@@ -23,8 +23,8 @@ public class ListenGuidelineEntity {
     @Column(name = "createddate")
     private Timestamp createdDate;
 
-    @Column(name = "modifieddate")
-    private Timestamp modifiedDate;
+    @Column(name = "modefieddate")
+    private Timestamp modefiedDate;
 
     @OneToMany(mappedBy = "listenGuidelineEntity", fetch = FetchType.LAZY)
     private List<CommentEntity> commentEntityList;
@@ -69,12 +69,12 @@ public class ListenGuidelineEntity {
         this.createdDate = createdDate;
     }
 
-    public Timestamp getModifiedDate() {
-        return modifiedDate;
+    public Timestamp getModefiedDate() {
+        return modefiedDate;
     }
 
-    public void setModifiedDate(Timestamp modifiedDate) {
-        this.modifiedDate = modifiedDate;
+    public void setModefiedDate(Timestamp modifiedDate) {
+        this.modefiedDate = modifiedDate;
     }
 
     public List<CommentEntity> getCommentEntityList() {
